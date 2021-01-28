@@ -10,7 +10,7 @@
 * [57.1 和为 S 的两个数字](#571-和为-s-的两个数字)
 * [57.2 和为 S 的连续正数序列](#572-和为-s-的连续正数序列)
 * [58.1 翻转单词顺序列](#581-翻转单词顺序列)
-* [58.2 左旋转字符串](#582-左旋转字符串)
+* <div align="center"> <img src="../../pics/195f8693-5ec4-4987-8560-f25e365879dd.png" width="300px"> </div><br>
 * [59. 滑动窗口的最大值](#59-滑动窗口的最大值)
 <!-- GFM-TOC -->
 
@@ -120,7 +120,7 @@ private void merge(int[] nums, int l, int m, int h) {
 
 ## 题目描述
 
-<div align="center"> <img src="pics/5f1cb999-cb9a-4f6c-a0af-d90377295ab8.png" width="500"/> </div><br>
+<div align="center"> <img src="../../pics/5f1cb999-cb9a-4f6c-a0af-d90377295ab8.png" width="500"/> </div><br>
 
 ## 解题思路
 
@@ -212,7 +212,7 @@ private void inOrder(TreeNode root, int k) {
 
 从根结点到叶结点依次经过的结点（含根、叶结点）形成树的一条路径，最长路径的长度为树的深度。
 
-<div align="center"> <img src="pics/ba355101-4a93-4c71-94fb-1da83639727b.jpg" width="350px"/> </div><br>
+<div align="center"> <img src="../../pics/ba355101-4a93-4c71-94fb-1da83639727b.jpg" width="350px"/> </div><br>
 
 ## 解题思路
 
@@ -230,7 +230,7 @@ public int TreeDepth(TreeNode root) {
 
 平衡二叉树左右子树高度差不超过 1。
 
-<div align="center"> <img src="pics/af1d1166-63af-47b6-9aa3-2bf2bd37bd03.jpg" width="250px"/> </div><br>
+<div align="center"> <img src="../../pics/af1d1166-63af-47b6-9aa3-2bf2bd37bd03.jpg" width="250px"/> </div><br>
 
 ## 解题思路
 
@@ -479,12 +479,3 @@ public ArrayList<Integer> maxInWindows(int[] num, int size) {
 ```
 
 
-
-
-# 微信公众号
-
-
-更多精彩内容将发布在微信公众号 CyC2018 上，你也可以在公众号后台和我交流学习和求职相关的问题。另外，公众号提供了该项目的 PDF 等离线阅读版本，后台回复 "下载" 即可领取。公众号也提供了一份技术面试复习大纲，不仅系统整理了面试知识点，而且标注了各个知识点的重要程度，从而帮你理清多而杂的面试知识点，后台回复 "大纲" 即可领取。我基本是按照这个大纲来进行复习的，对我拿到了 BAT 头条等 Offer 起到很大的帮助。你们完全可以和我一样根据大纲上列的知识点来进行复习，就不用看很多不重要的内容，也可以知道哪些内容很重要从而多安排一些复习时间。
-
-
-<br><div align="center"><img width="320px" src="https://cs-notes-1256109796.cos.ap-guangzhou.myqcloud.com/other/公众号海报6.png"></img></div>

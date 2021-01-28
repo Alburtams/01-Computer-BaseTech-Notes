@@ -112,7 +112,7 @@ For example, given n = 12, return 3 because 12 = 4 + 4 + 4; given n = 13, return
 
 要求解最小的平方数数量，就是求解从节点 n 到节点 0 的最短路径。
 
-本题也可以用动态规划求解，在之后动态规划部分中会再次出现。
+<div align="center"> <img src="../../pics/0038204c-4b8a-42a5-921d-080f6674f989.png" width="210px"> </div><br>
 
 ```java
 public int numSquares(int n) {
@@ -572,7 +572,7 @@ Backtracking（回溯）属于 DFS。
 
 [17. Letter Combinations of a Phone Number (Medium)](https://leetcode.com/problems/letter-combinations-of-a-phone-number/description/)
 
-<div align="center"> <img src="pics/9823768c-212b-4b1a-b69a-b3f59e07b977.jpg"/> </div><br>
+<div align="center"> <img src="../../pics/9823768c-212b-4b1a-b69a-b3f59e07b977.jpg"/> </div><br>
 
 ```html
 Input:Digit string "23"
@@ -1149,7 +1149,7 @@ private boolean isPalindrome(String s, int begin, int end) {
 
 [37. Sudoku Solver (Hard)](https://leetcode.com/problems/sudoku-solver/description/)
 
-<div align="center"> <img src="pics/0e8fdc96-83c1-4798-9abe-45fc91d70b9d.png"/> </div><br>
+<div align="center"> <img src="../../pics/0e8fdc96-83c1-4798-9abe-45fc91d70b9d.png"/> </div><br>
 
 ```java
 private boolean[][] rowsUsed = new boolean[9][10];
@@ -1206,7 +1206,7 @@ private int cubeNum(int i, int j) {
 
 [51. N-Queens (Hard)](https://leetcode.com/problems/n-queens/description/)
 
-<div align="center"> <img src="pics/067b310c-6877-40fe-9dcf-10654e737485.jpg"/> </div><br>
+<div align="center"> <img src="../../pics/067b310c-6877-40fe-9dcf-10654e737485.jpg"/> </div><br>
 
 在 n\*n 的矩阵中摆放 n 个皇后，并且每个皇后不能在同一行，同一列，同一对角线上，求所有的 n 皇后的解。
 
@@ -1214,12 +1214,12 @@ private int cubeNum(int i, int j) {
 
 45 度对角线标记数组的长度为 2 \* n - 1，通过下图可以明确 (r, c) 的位置所在的数组下标为 r + c。
 
-<div align="center"> <img src="pics/9c422923-1447-4a3b-a4e1-97e663738187.jpg" width="300px"> </div><br>
+<div align="center"> <img src="../../pics/9c422923-1447-4a3b-a4e1-97e663738187.jpg" width="300px"> </div><br>
 
 
 135 度对角线标记数组的长度也是 2 \* n - 1，(r, c) 的位置所在的数组下标为 n - 1 - (r - c)。
 
-<div align="center"> <img src="pics/7a85e285-e152-4116-b6dc-3fab27ba9437.jpg" width="300px"> </div><br>
+<div align="center"> <img src="../../pics/7a85e285-e152-4116-b6dc-3fab27ba9437.jpg" width="300px"> </div><br>
 
 ```java
 private List<List<String>> solutions;
@@ -1267,14 +1267,3 @@ private void backtracking(int row) {
     }
 }
 ```
-
-
-
-
-# 微信公众号
-
-
-更多精彩内容将发布在微信公众号 CyC2018 上，你也可以在公众号后台和我交流学习和求职相关的问题。另外，公众号提供了该项目的 PDF 等离线阅读版本，后台回复 "下载" 即可领取。公众号也提供了一份技术面试复习大纲，不仅系统整理了面试知识点，而且标注了各个知识点的重要程度，从而帮你理清多而杂的面试知识点，后台回复 "大纲" 即可领取。我基本是按照这个大纲来进行复习的，对我拿到了 BAT 头条等 Offer 起到很大的帮助。你们完全可以和我一样根据大纲上列的知识点来进行复习，就不用看很多不重要的内容，也可以知道哪些内容很重要从而多安排一些复习时间。
-
-
-<br><div align="center"><img width="320px" src="https://cs-notes-1256109796.cos.ap-guangzhou.myqcloud.com/other/公众号海报6.png"></img></div>

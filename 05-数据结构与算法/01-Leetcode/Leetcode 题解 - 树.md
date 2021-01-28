@@ -513,7 +513,8 @@ public int findBottomLeftValue(TreeNode root) {
 
 - 层次遍历顺序：[1 2 3 4 5 6]
 - 前序遍历顺序：[1 2 4 5 3 6]
-- 中序遍历顺序：[4 2 5 1 3 6]
+- <div align="center"> <img src="../../pics/9823768c-212b-4b1a-b69a-b3f59e07b977.jpg"/> </div><br>
+
 - 后序遍历顺序：[4 5 2 6 3 1]
 
 层次遍历使用 BFS 实现，利用的就是 BFS 一层一层遍历的特性；而前序、中序、后序遍历利用了 DFS 实现。
@@ -987,7 +988,7 @@ private void inOrder(TreeNode node, List<Integer> nums) {
 
 # Trie
 
-<div align="center"> <img src="pics/5c638d59-d4ae-4ba4-ad44-80bdc30f38dd.jpg"/> </div><br>
+<div align="center"> <img src="../../pics/5c638d59-d4ae-4ba4-ad44-80bdc30f38dd.jpg"/> </div><br>
 
 Trie，又称前缀树或字典树，用于判断字符串是否存在或者是否具有某种字符串前缀。
 
@@ -1117,15 +1118,3 @@ class MapSum {
     }
 }
 ```
-
-
-
-
-
-# 微信公众号
-
-
-更多精彩内容将发布在微信公众号 CyC2018 上，你也可以在公众号后台和我交流学习和求职相关的问题。另外，公众号提供了该项目的 PDF 等离线阅读版本，后台回复 "下载" 即可领取。公众号也提供了一份技术面试复习大纲，不仅系统整理了面试知识点，而且标注了各个知识点的重要程度，从而帮你理清多而杂的面试知识点，后台回复 "大纲" 即可领取。我基本是按照这个大纲来进行复习的，对我拿到了 BAT 头条等 Offer 起到很大的帮助。你们完全可以和我一样根据大纲上列的知识点来进行复习，就不用看很多不重要的内容，也可以知道哪些内容很重要从而多安排一些复习时间。
-
-
-<br><div align="center"><img width="320px" src="https://cs-notes-1256109796.cos.ap-guangzhou.myqcloud.com/other/公众号海报6.png"></img></div>

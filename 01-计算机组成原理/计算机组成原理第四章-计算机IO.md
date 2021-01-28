@@ -18,7 +18,7 @@ I/O硬件基本包括接口和I/O设备两个部分。
 
 ## 二、I/O接口  
 
-<div align="center"> <img src="pics/image-20201217202026538.png" width="400"/> </div><br>
+<div align="center"> <img src="../pics/image-20201217202026538.png" width="400"/> </div><br>
 
 如上图所示，I/O接口由数据缓冲寄存器、设备选择电路、设备状态标记、命令寄存器和命令译码器组成。之所以说I/O接口起到了桥梁的作用，是指它一端连接了CPU，另一端则连接了I/O设备，能够有效的保证设备和CPU间正确的数据交换。 接下来说一下各个模块的作用：  
 
@@ -61,7 +61,7 @@ DMA方式就如同一开始讲的那样，DMA直接与主存进行数据交互�
 
 更多精彩内容将发布在微信公众号 **闾丘说** 上，你也可以在公众号后台和我交流学习和求职相关的问题。
 
-<div align="center"> <img src="pics/qrcode_for_gh_3a44d47c39d4_430.jpg" width="400"/> </div><br>
+<div align="center"> <img src="../pics/qrcode_for_gh_3a44d47c39d4_430.jpg" width="400"/> </div><br>
 
 
 
